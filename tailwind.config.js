@@ -11,6 +11,7 @@ module.exports = {
         main: "#3C3C3C",
         oneYellow: "#FABE4C",
         oneGreen: "#A4BC46",
+        background: "#FFFBF0",
       },
     },
   },
