@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/tailwind.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header class="max-w-full mx-auto pb-16 bg-background">
-        <nav class="bg-transparent font-roboto px-2 lg:px-5 md:px-5 ">
+    <header class="max-w-full bg-background mx-auto py-10 lg:px-10 md:px-10 ">
+        <nav class="bg-transparent  font-roboto px-2 lg:px-5 md:px-5 ">
             <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="./img/logo.svg" class="h-8" alt="Penguin Logo" />
@@ -61,7 +62,9 @@
             <!-- Left -->
             <div class="text-main">
                 <h1 class="text-5xl font-bebas leading-snug md:text-7xl lg:text-7xl"> <span class="text-oneYellow">Be the Penguins</span> <br> of Winter</h1>
-                <p class="text-base">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                <p class="text-base my-5">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                <button class="py-4 px-8 text-white text-base font-medium rounded-xl  bg-gradient-to-r from-oneGreen to-twoGreen hover:from-twoGreen hover:to-oneGreen hover:duration-500"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+
             </div>
             <!-- Left End-->
 
@@ -74,6 +77,59 @@
         <!-- Banner End-->
     </header>
     <!-- Header End-->
+
+    <!-- Main -->
+    <main>
+        <section class=" my-14 px-5 md:px-20 lg:px-20 ">
+            <h1 class="text-5xl font-bebas mb-12">Woman jacket</h1>
+            <div class="grid gap-8 sm:grid-cols-1 md:grid-row-3 lg:grid-cols-3">
+                
+                <!-- Card 1 -->
+                <div class="bg-white w-fit px-6 py-6 rounded-3xl flex flex-col align-middle justify-center shadow-md">
+                    <div class="bg-cardBg flex justify-center align-middle rounded-3xl py-4 max-h-96">
+                        <img src="./img/woman1.svg" alt="">
+                    </div>
+                    <h2 class="text-2xl font-roboto font-bold my-4">Yellow Coat Jacket </h2>
+                    <p class="mr-10 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex align-middle justify-between">
+                        <h2 class="text-4xl text-oneYellow font-bold">235$</h2>
+                        <button class="py-4 px-2 text-white text-base font-medium rounded-xl bg-gradient-to-r from-oneGreen to-twoGreen hover:from-twoGreen hover:to-oneGreen hover:duration-500 lg:px-8 md:px-7 "><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                    </div>
+                </div>
+                <!-- Card 1 End-->
+
+                <!-- Card 2 -->
+                <div class="bg-white w-fit px-6 py-6 rounded-3xl flex flex-col align-middle justify-center shadow-md">
+                    <div class="bg-cardBg flex justify-center align-middle rounded-3xl py-4 max-h-96">
+                        <img src="./img/woman2.svg" alt="">
+                    </div>
+                    <h2 class="text-2xl font-roboto font-bold my-4">Ladies Jacket </h2>
+                    <p class="mr-10 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex align-middle justify-between">
+                        <h2 class="text-4xl text-oneYellow font-bold">235$</h2>
+                        <button class="py-4 px-2 text-white text-base font-medium rounded-xl bg-gradient-to-r from-oneGreen to-twoGreen hover:from-twoGreen hover:to-oneGreen hover:duration-500 lg:px-8 md:px-7 "><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                    </div>
+                </div>
+                <!-- Card 2 End-->
+
+                <!-- Card 3 -->
+                <div class="bg-white w-fit px-6 py-6 rounded-3xl flex flex-col align-middle justify-center shadow-md">
+                    <div class="bg-cardBg flex justify-center align-middle rounded-3xl py-4 max-h-96">
+                        <img src="./img/woman3.svg" alt="" class="h-fit">
+                    </div>
+                    <h2 class="text-2xl font-roboto font-bold my-4">Woman Leather Jacket </h2>
+                    <p class="mr-10 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex align-middle justify-between">
+                        <h2 class="text-4xl text-oneYellow font-bold">235$</h2>
+                        <button class="py-4 px-2 text-white text-base font-medium rounded-xl bg-gradient-to-r from-oneGreen to-twoGreen hover:from-twoGreen hover:to-oneGreen hover:duration-500 lg:px-8 md:px-7 "><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                    </div>
+                </div>
+                <!-- Card 3 End-->
+                
+            </div>
+        </section>
+    </main>
+    <!-- Main End -->
 
 
 
